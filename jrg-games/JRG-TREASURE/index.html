@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <title>TIC TAC TOE</title>
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link rel="stylesheet" type="text/css" href="css/jrg-tres.css">
+</head>
+<body>
+
+      <div class="jrg_3t_wrapper">
+            <div class="header">
+                  <button class="fa fa-close" style="float: left; margin-left: 4px;"></button>
+                  <h3 style="display:inline-block;margin-top: 5px;margin-left:3px; font-family: arial;" id="info">
+                        TREASURE
+                  </h3>
+                  <button class="fa fa-user"></button>
+            </div>
+       <div id="mainPage" class="main_page">
+            <div class="section">
+                  <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%">
+                              <div id="board">
+                                    <div id="ui" class="col-sm-12 col-md-12 col-lg-12">
+                                          <h1>Treasure</h1>
+                                          <label>
+                                                <img class="icon" src="img/lifeicon.png" alt="Life" height="35px" />
+                                                <progress id="health" value="0" max="10"></progress>
+                                          </label><br/>
+                                          <label id="score-div">
+                                                <img class="icon" src="img/scoreicon.png" alt="Score" height="35px" />
+                                                <p id="demo3">0</p>
+                                          </label>
+                                          <p id="demo4"><strong>How to play:</strong></p>
+                                          <ul id="rules">
+                                                <li>Find as much Gold as you can by clicking on any of the blank squares before your Lifebar runs out!</li>
+                                                <li>Look out for the clues provided after clicking on a square to find out how close you are to claiming Gold.</li>
+                                          </ul>
+                                          <button id="start-button" class="btn-block" onclick="initialise()">Start Game</button>
+                                    </div>
+                              </div>
+                  </div>
+            </div>
+      </div>
+     </div>
+
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jrg-tres.js"></script>
+
+</html>

@@ -1,0 +1,183 @@
+html{
+	background: -webkit-linear-gradient(105deg, #dbe27b, #c4ba73);
+	background: -moz-linear-gradient(105deg, #dbe27b, #c4ba73);
+	background: -ms-linear-gradient(105deg, #dbe27b, #c4ba73);
+	background: -o-linear-gradient(105deg, #dbe27b, #c4ba73);
+	background: linear-gradient(105deg, #dbe27b, #c4ba73);
+}
+
+body{
+	background: transparent !important;
+}
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    background: -webkit-linear-gradient(330deg, #800000, #ff0080);
+    background: -moz-linear-gradient(330deg, #800000, #ff0080);
+    background: -ms-linear-gradient(330deg, #800000, #ff0080);
+    background: -o-linear-gradient(330deg, #800000, #ff0080);
+    background: linear-gradient(330deg, #800000, #ff0080);
+    height:45px;
+    width:100%;
+    z-index:90;
+    box-shadow:0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.section {
+    position:absolute;
+    left:0;
+    top:45px;
+    width:100%;
+    height:calc(100% - 45px);
+    background: -webkit-linear-gradient(330deg, #008000, #008080);
+	background: -moz-linear-gradient(330deg, #008000, #008080);
+	background: -ms-linear-gradient(330deg, #008000, #008080);
+	background: -o-linear-gradient(330deg, #008000, #008080);
+	background: linear-gradient(330deg, #008000, #008080);
+    overflow:scroll;
+}
+
+.header button {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background: -webkit-linear-gradient(330deg, #0000ff, #ff1515);
+	background: -moz-linear-gradient(330deg, #0000ff, #ff1515);
+	background: -ms-linear-gradient(330deg, #0000ff, #ff1515);
+	background: -o-linear-gradient(330deg, #0000ff, #ff1515);
+	background: linear-gradient(330deg, #0000ff, #ff1515);
+    outline:none;
+    border:none;
+    float:right;
+    margin-right:5px;
+    margin-top: 2.5px;
+    cursor: pointer;
+}
+
+.navbar{
+	background: #333;
+	color: white;
+	position: relative;
+}
+
+.game-button{
+	width: 58px;
+	height: 58px;
+	padding: 0;
+	margin: 0 1px;
+	cursor: pointer;
+	background: rgba(255,255,255,0.5);
+	border: 0;
+}
+
+.game-button:hover{
+	background: rgba(255,255,255,0.9);
+	transition-duration: 0.5s;
+}
+
+.game-button:disabled{
+	cursor: not-allowed;
+}
+
+.clear{
+	clear:both;
+}
+
+#board{
+	position: relative;
+	border-radius: 2px;
+	padding: 4px;
+	width: 340px;
+	background: rgba(255,255,255,0.4);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ui{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	background: -webkit-linear-gradient(173deg, #a5d811, #cc1510);
+	background: -moz-linear-gradient(173deg, #a5d811, #cc1510);
+	background: -ms-linear-gradient(173deg, #a5d811, #cc1510);
+	background: -o-linear-gradient(173deg, #a5d811, #cc1510);
+	background: linear-gradient(173deg, #a5d811, #cc1510);
+}
+
+#ui h1 {
+	text-align: center;
+	font-family: Algerian;
+	font-weight: bolder;
+}
+
+#health[value]{
+	-webkit-appearance: none;
+   appearance: none;
+
+  width: 200px;
+  height: 20px;
+	background-color: #eee;
+}
+
+#game{
+	position: relative;
+	display:inline-block;
+	/*left: 30px;*/
+	text-align:center;
+}
+
+#demo5{
+	font-weight:bold;
+}
+
+.icon{
+	padding: 0 10px;
+}
+
+#score-div{
+	position: relative;
+    width: 60%;
+}
+
+
+
+#demo3{
+	position: absolute;
+    top: 0;
+    left: 55px;
+    width: 100%;
+    font-weight: 600;
+}
+
+#demo4{
+	font-weight: 600;
+}
+
+#start-button{
+	background: -webkit-linear-gradient(56deg, #3ad05b, #797485);
+	background: -moz-linear-gradient(56deg, #3ad05b, #797485);
+	background: -ms-linear-gradient(56deg, #3ad05b, #797485);
+	background: -o-linear-gradient(56deg, #3ad05b, #797485);
+	background: linear-gradient(56deg, #3ad05b, #797485);
+	color: white;
+	border: 0;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+#start-button:hover{
+	background: -webkit-linear-gradient(158deg, #d6b149, #672a4b);
+	background: -moz-linear-gradient(158deg, #d6b149, #672a4b);
+	background: -ms-linear-gradient(158deg, #d6b149, #672a4b);
+	background: -o-linear-gradient(158deg, #d6b149, #672a4b);
+	background: linear-gradient(158deg, #d6b149, #672a4b);
+}
+
+#gameover{
+	text-align:center;
+	font-weight: 600;
+	margin-top:20px;
+}
